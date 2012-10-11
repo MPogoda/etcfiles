@@ -1,0 +1,204 @@
+app-admin/eselect               bash-completion
+app-admin/sudo                  offensive pam
+app-arch/libarchive             bzip2 lzma zlib
+app-arch/unzip                  natspec
+app-arch/zip                    natspec
+app-crypt/pinentry              ncurses qt4
+app-editors/gvim                cscope gtk python
+app-editors/kile                pdf png
+app-editors/vim                 cscope python
+app-emulation/wine              X alsa custom-cflags dbus fontconfig jpeg openal opengl png truetype v4l win32
+app-emulation/winetricks        kde
+app-i18n/enca                   recode
+app-laptop/laptop-mode-tools    acpi
+app-misc/mc                     sftp xdg
+app-misc/strigi                 dbus qt4
+app-portage/eix                 clang dep nls optimization sqlite strong-optimization zsh-completion
+app-portage/layman              git mercurial subversion
+app-text/aspell                 linguas_ru linguas_uk
+app-text/dvipng                 t1lib
+app-text/enchant                aspell hunspell
+app-text/ghostscript-gpl        X dbus djvu
+app-text/hunspell               linguas_en linguas_ru linguas_uk ncurses
+app-text/lcdf-typetools         kpathsea
+app-text/mupdf                  X
+app-text/poppler                cairo lcms png qt4 utils xpdf-headers
+app-text/texlive                extra graphics linguas_en linguas_ru linguas_uk omega png pstricks science truetype
+dev-db/postgresql-base          pam
+dev-db/sqlite                   extensions fts3 threadsafe
+dev-java/antlr                  examples java
+dev-java/oracle-jdk-bin         X alsa doc fontconfig nsplugin
+dev-java/oracle-jre-bin         X
+dev-java/sun-jdk                X alsa
+dev-java/swing-layout           source
+dev-lang/erlang                 hipe java smp
+dev-lang/ghc                    llvm
+dev-lang/ifc                    mkl
+dev-lang/python                 sqlite xml
+dev-lang/R                      X cairo icu lapack openmp perl png
+dev-lang/ruby                   rdoc yaml
+dev-lang/swi-prolog             X gmp doc
+dev-libs/apr                    urandom uuid
+dev-libs/cyrus-sasl             pam sqlite urandom
+dev-libs/elfutils               static-libs
+dev-libs/gmp                    cxx
+dev-libs/libpcre                cxx jit recursion-limit
+dev-libs/libxml2                icu python
+dev-libs/openssl                gmp
+dev-lisp/sbcl                   asdf
+dev-python/markdown             pygments
+dev-python/PyQt4                X webkit svg
+dev-ruby/activerecord           mysql sqlite3
+dev-ruby/xmpp4r                 doc
+dev-util/cmake                  ncurses qt4
+dev-util/jay                    java
+dev-util/kdevelop               cmake cxx qmake
+dev-util/kdevplatform           git subversion
+dev-util/qt-creator             botan-bundled cmake fakevim git mercurial
+dev-vcs/git                     blksha1 curl gpg iconv pcre perl
+dev-vcs/mercurial               zsh-completion
+dev-vcs/subversion              webdav-neon
+games-emulation/dosbox          alsa opengl
+kde-base/dolphin                thumbnail
+kde-base/dolphin-plugins        git
+kde-base/gwenview               kipi
+kde-base/kcheckpass             pam
+kde-base/kdebase-kioslaves      sftp
+kde-base/kdelibs                alsa opengl spell udev
+kde-base/kdm                    pam
+kde-base/kmix                   alsa
+kde-base/konqueror              svg
+kde-base/kopete                 history jingle latex oscar skype statistics v4l xmpp
+kde-base/okular                 chm djvu ebook pdf postscript
+kde-base/phonon-kde             alsa
+kde-base/powerdevil             pm-utils
+kde-base/qtruby                 ruby_targets_ruby18
+kde-base/smokeqt                opengl qthelp webkit
+kde-base/solid                  wicd
+kde-base/systemsettings         gtk opengl
+kde-misc/kdiff3                 kde
+mail-client/mutt                crypt gnutls gpg imap sasl sidebar smime smtp
+mail-mta/ssmtp                  mta ssl
+media-fonts/*                   X
+media-fonts/terminus-font       center-tilde pcf psf ru-i ru-k
+media-gfx/exiv2                 xmp
+media-gfx/feh                   curl exif
+media-gfx/graphicsmagick        X cxx
+media-gfx/graphviz              X cairo qt4 ruby svg
+media-gfx/imagemagick           X jpeg png svg truetype
+media-libs/freetype             X infinality
+media-libs/gd                   fontconfig jpeg png truetype zlib
+media-libs/imlib2               X gif jpeg png
+media-libs/libass               enca fontconfig
+media-libs/libcanberra          gtk
+media-libs/libpng               apng
+media-libs/libsdl               X alsa audio custom-cflags joystick opengl video xv
+media-libs/libsndfile           alsa
+media-libs/libtheora            encode
+media-libs/mediastreamer        X alsa speex theora v4l video x264
+media-libs/mesa                 classic gallium g3dvl gles1 gles2 llvm nptl shared-dricore shared-glapi video_cards_i915 video_cards_i965 xvmc
+media-libs/openal               alsa
+media-libs/phonon               vlc
+media-libs/phonon-gstreamer     alsa
+media-libs/sdl-image            jpeg png
+media-libs/sdl-mixer            flac mad vorbis wav
+media-libs/sdl-sound            mikmod mp3 speex vorbis
+media-libs/taglib               asf mp4
+media-libs/x264                 10bit custom-cflags
+media-plugins/gst-plugins-meta  alsa ogg vorbis
+media-sound/mpd                 alsa id3tag inotify mad ogg sqlite vorbis
+media-sound/mumble              alsa dbus pch
+media-sound/ncmpc               nls song-screen
+media-video/ffmpeg              X alsa encode hardcoded-tables libass libv4l mp3 qt-faststart schroedinger speex theora truetype v4l vorbis vpx x264
+media-video/libav               X alsa custom-cflags hardcoded-tables truetype v4l v4l2
+media-video/mplayer2            X alsa enca iconv libass mad network opengl png rtc truetype vorbis v4l v4l2 xv
+media-video/vlc                 alsa avcodec avformat dbus ffmpeg ogg postproc speex swscale theora vorbis
+net-analyzer/wireshark          gtk pcap
+net-dns/libidn                  nls
+net-im/psi                      dbus extras jingle webkit
+net-libs/libssh                 sftp
+net-mail/mailbase               pam
+net-misc/dhcp                   client
+net-misc/curl                   curl_ssl_openssl idn
+net-misc/iputils                idn
+net-misc/networkmanager         dhcpcd gnutls
+net-misc/openssh                X hpn
+net-misc/wget                   idn gnutls uuid
+net-misc/wicd                   X gtk
+net-p2p/eiskaltdcpp             qt4 sound sqlite
+net-p2p/qbittorrent             X dbus
+net-voip/telepathy-gabble       jingle
+net-wireless/aircrack-ng        sqlite wifi
+net-wireless/wpa_supplicant     dbus
+sci-libs/cholmod                metis supernodal
+sci-libs/fftw                   fortran openmp
+sci-libs/umfpack                metis
+sci-mathematics/maxima          X clozurecl latex
+sci-mathematics/octave          X curl doc hdf5 opengl openmp qhull qrupdate sparse zlib
+sci-visualization/gnuplot       X cairo gd latex qt4 wxwidgets
+sys-apps/dbus                   X
+sys-apps/kmod                   tools
+sys-apps/openrc                 ncurses pam
+sys-apps/portage                python3
+sys-apps/shadow                 cracklib pam
+sys-apps/util-linux             udev
+sys-auth/consolekit             pam
+sys-auth/pambase                pam_ssh
+sys-auth/polkit                 kde pam
+sys-boot/grub                   custom-cflags
+sys-devel/binutils              cxx
+sys-devel/clang                 static-analyzer system-cxx-headers
+sys-devel/gcc                   cxx fortran graphite openmp
+sys-devel/gdb                   python
+sys-devel/gettext               cxx nls
+sys-devel/llvm                  gold libffi
+sys-devel/llvm-gcc              bootstrap fortran
+sys-fs/ntfs3g                   ntfsprogs suid udev
+sys-fs/udev                     gudev openrc
+sys-kernel/gentoo-sources       symlink
+sys-kernel/pf-sources           symlink
+sys-libs/glibc                  debug glibc-omitfp
+sys-libs/timezone-data          nls
+sys-libs/zlib                   minizip
+sys-power/pm-utils              alsa ntp
+virtual/ffmpeg                  X encode mp3 theora truetype x264
+virtual/fortran                 openmp
+www-client/chromium             custom-cflags linguas_en_GB
+www-client/firefox              alsa custom-cflags custom-optimization dbus ipc libnotify methodjit webm wifi
+www-client/google-chrome        plugins
+www-plugins/adobe-flash         sse2check
+www-plugins/google-talkplugin   libnotify
+x11-apps/xinit                  minimal
+x11-base/xorg-server            nptl udev xorg
+x11-drivers/xf86-video-intel    dri sna udev uxa xvmc
+x11-libs/cairo                  X glib qt4 svg xcb
+x11-libs/fltk                   cairo opengl png xft
+x11-libs/gdk-pixbuf             X
+x11-libs/gtk+                   X
+x11-libs/libdrm                 libkms
+x11-libs/pango                  X
+x11-libs/qt-*                   exceptions
+x11-libs/qt-assistant           doc glib pch qt3support webkit
+x11-libs/qt-core                glib iconv optimized-qmake pch qt3support ssl
+x11-libs/qt-dbus                pch
+x11-libs/qt-declarative         accessibility pch qt3support webkit
+x11-libs/qt-demo                dbus declarative multimedia pch
+x11-libs/qt-gui                 accessibility dbus gif glib mng qt3support pch xv
+x11-libs/qt-multimedia          alsa pch
+x11-libs/qt-opengl              qt3support pch
+x11-libs/qt-phonon              qt3support pch
+x11-libs/qt-qt3support          accessibility kde pch
+x11-libs/qt-script              pch
+x11-libs/qt-sql                 qt3support pch sqlite
+x11-libs/qt-svg                 accessibility iconv pch
+x11-libs/qt-test                iconv pch
+x11-libs/qt-webkit              dbus kde pch
+x11-libs/qt-xmlpatterns         pch
+x11-libs/qwt                    doc examples svg
+x11-libs/wxGTK                  X
+x11-misc/kbdd                   dbus
+x11-misc/xdg-utils              perl
+x11-terms/rxvt-unicode          256-color alt-font-width font-styles xft
+x11-themes/qtcurve-qt4          kde
+x11-wm/awesome                  dbus
+x11-wm/xmonad-contrib           xft

@@ -1,0 +1,2 @@
+sys-boot/grub:2
+=x11-apps/xkbcomp-1.2.4
